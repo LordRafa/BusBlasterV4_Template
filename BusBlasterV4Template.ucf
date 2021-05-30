@@ -1,0 +1,86 @@
+#Bus Blaster v4 pin connections
+
+# FT2232H Interface A
+NET "FT_AD0_TCK"              LOC =  "P60";
+NET "FT_AD1_TDI"              LOC =  "P58";
+NET "FT_AD2_TDO"              LOC =  "P56";
+NET "FT_AD3_TMS"              LOC =  "P55";
+
+NET "FT_AD4_GPIOL0"           LOC =  "P53";
+NET "FT_AD5_GPIOL1"           LOC =  "P52";
+NET "FT_AD6_GPIOL2"           LOC =  "P50";
+NET "FT_AD7_GPIOL3"           LOC =  "P49";
+
+
+NET "FT_AC0_GPIOH0"           LOC =  "P43";
+NET "FT_AC1_GPIOH1"           LOC =  "P42";
+NET "FT_AC2_GPIOH2"           LOC =  "P41";
+NET "FT_AC3_GPIOH3"           LOC =  "P40";
+NET "FT_AC4_GPIOH4"           LOC =  "P39";
+NET "FT_AC5_GPIOH5"           LOC =  "P27";
+NET "FT_AC6_GPIOH6"           LOC =  "P37";
+NET "FT_AC7_GPIOH7"           LOC =  "P36";
+
+
+# FT2232H Interface B
+NET "FT_BD0_TCK"              LOC =  "P17";
+NET "FT_BD1_TDI"              LOC =  "P16";
+NET "FT_BD2_TDO"              LOC =  "P15";
+NET "FT_BD3_TMS"              LOC =  "P14";
+
+NET "FT_BD4_GPIOL0"           LOC =  "P35";
+NET "FT_BD5_GPIOL1"           LOC =  "P34";
+NET "FT_BD6_GPIOL2"           LOC =  "P33";
+NET "FT_BD7_GPIOL3"           LOC =  "P32";
+
+
+NET "FT_BC0_GPIOH0"           LOC =  "P30";
+NET "FT_BC1_GPIOH1"           LOC =  "P29";
+NET "FT_BC2_GPIOH2"           LOC =  "P28";
+NET "FT_BC3_GPIOH3"           LOC =  "P24";
+
+NET "FT_BC4_GPIOH4"           LOC =  "P23";
+NET "FT_BC5_GPIOH5"           LOC =  "P22";
+NET "FT_BC6_GPIOH6"           LOC =  "P19";
+NET "FT_BC7_GPIOH7"           LOC =  "P18";
+
+
+# JTAG Header
+NET "TDO"                 LOC =  "P79";
+NET "TCK"                 LOC =  "P91";
+NET "TDI"                 LOC =  "P94";
+NET "TMS"                 LOC =  "P92";
+NET "RTCK"                LOC =  "P81";
+NET "nSRST"               LOC =  "P78";
+NET "nTRST"               LOC =  "P97";
+NET "DBGRQ"               LOC =  "P77";
+NET "DBGACK"              LOC =  "P76";
+
+
+# JP1 Header
+NET "JP1_P61_BUTTON"      LOC =  "P61";
+NET "JP1_P64_LED"         LOC =  "P64";
+NET "JP1_P67"             LOC =  "P67";
+NET "JP1_P68"             LOC =  "P68";
+NET "JP1_P70"             LOC =  "P70";
+NET "JP1_P71"             LOC =  "P71";
+NET "JP1_P72"             LOC =  "P72";
+NET "JP1_P74"             LOC =  "P74";
+NET "JP1_P89"             LOC =  "P89";
+NET "JP1_P90"             LOC =  "P90";
+NET "JP1_P99"             LOC =  "P99";
+
+
+# JP2 Header
+NET "JP2_P1"              LOC =  "P1";
+NET "JP2_P2"              LOC =  "P2";
+NET "JP2_P3"              LOC =  "P3";
+NET "JP2_P4"              LOC =  "P4";
+NET "JP2_P6"              LOC =  "P6";
+NET "JP2_P7"              LOC =  "P7";
+NET "JP2_P8"              LOC =  "P8";
+NET "JP2_P9"              LOC =  "P9";
+NET "JP2_P10"             LOC =  "P10";
+NET "JP2_P11"             LOC =  "P11";
+NET "JP2_P12"             LOC =  "P12";
+NET "JP2_P13"             LOC =  "P13";
